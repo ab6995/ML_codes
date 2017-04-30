@@ -18,7 +18,6 @@ ap.add_argument("-a", "--alpha", type=float, default= 0.0001,
 	help="learning rate")
 args = vars(ap.parse_args())
 
-# generate a 2-class classification problem with 250 data points,
 # where each data point is a 2D feature vector
 (X,y) = load_breast_cancer(return_X_y=True)
 
